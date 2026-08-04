@@ -6,9 +6,6 @@ class Solution:
             l[i].strip()
             l1.append(l[i])
         l1.reverse()
-        st=""
-        for a in l1:
-            st=st+a+" "
-        st=st[:-1]
+        st=" ".join(l1)
         return st
         
